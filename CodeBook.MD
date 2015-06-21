@@ -52,7 +52,9 @@ Output Variable:
 all.data.filtered
 
 3) We iterate through each row from the all.data.filtered data set and substitue the activity number with more descriptive labels contained in the activity_labels.txt file.
+
 4) We substitute abbrevations contained within column heads in the all.data.filtered data set with more descriptive labels.
+
 5) We take the mean of each variable and group by subject and activity.  We then generate the tidydata.txt file and write this file to disk.
 
 
