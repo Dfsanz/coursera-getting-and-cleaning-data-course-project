@@ -39,17 +39,18 @@ Input Files:
 
 Output Variable:
 
-all.data.merged
+all.data.merged - this variable contains all of the input files outlined above merged.
 
 2) We apply a filter using the grep function to the all.data.merged data set produced above so that only the mean and standard deviation calculations of the data set are retained
 
 Input Variable:
 
-all.data.merged
+all.data.merged - this variable contains all of the input files outlined in step 1 merged.
 
 Output Variable:
 
-all.data.filtered
+all.data.filtered - this variable contains only the mean and standard deviation function data from the all.data-merged data set generated in the previous step.
+
 
 3) We iterate through each row from the all.data.filtered data set and substitue the activity number with more descriptive labels contained in the activity_labels.txt file.
 
